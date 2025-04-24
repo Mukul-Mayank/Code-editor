@@ -127,16 +127,3 @@ Run the frontend and backend servers to start the application.
 
 After setting it up, you can access the platform locally to start coding and testing.
 
-Contributing:
-
-Contributions are welcome! To contribute:
-
-Fork the repository and create a new branch for your feature.
-
-Commit your changes and push them to your fork.
-
-Open a pull request to submit your changes for review.
-
-License:
-
-The project is licensed under the MIT License. For more details, check the LICENSE file.
