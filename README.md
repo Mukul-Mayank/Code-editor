@@ -1,129 +1,36 @@
-# Code-editor
-A code editor challenge platform built with Next.js 14, TypeScript, Tailwind CSS, and CodeMirror. It supports multiple languages, syntax highlighting, problem statements, and output simulation. Additional features include a timer, localStorage for code persistence, and theme toggling.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Platform Overview:
+## Getting Started
 
-The Code Editor Challenge Platform is a web-based solution for coding challenges, enabling users to solve problems in different programming languages.
+First, run the development server:
 
-Built using Next.js 14, TypeScript, Tailwind CSS, and CodeMirror, it offers an interactive and engaging environment for coding challenges with real-time feedback and multiple features to improve the user experience.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Key Features:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Multiple Language Support:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Currently supports Python through a FastAPI backend, allowing users to execute Python code.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Future expansion plans include support for additional languages, such as JavaScript, C++, and Java.
+## Learn More
 
-Syntax Highlighting:
+To learn more about Next.js, take a look at the following resources:
 
-CodeMirror is used as the core text editor, providing syntax highlighting for various languages.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Syntax highlighting enhances readability, helping users to easily identify errors and better understand the structure of their code.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Problem Statement Panel:
+## Deploy on Vercel
 
-A dedicated panel displays the problem statement for the coding challenge.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-This panel remains accessible while users are coding, reducing the need to switch between tabs or lose track of the task.
-
-Output Simulation:
-
-After code execution, the platform simulates the output and displays it in a separate panel.
-
-This feature provides real-time feedback, helping users identify bugs or errors immediately after running their code.
-
-Timer:
-
-A countdown timer has been implemented to create a time-based challenge element.
-
-This timer adds a sense of urgency, helping users to manage their time effectively and providing a competitive edge for users solving challenges under constraints.
-
-LocalStorage for Code Persistence:
-
-Code is saved in localStorage, allowing it to persist even after a page refresh or browser restart.
-
-This feature ensures that users don’t lose their progress and can continue coding from where they left off.
-
-Theme Toggling:
-
-Users can switch between light and dark themes, making the platform more customizable.
-
-The theme toggle enhances the user experience, allowing users to choose their preferred interface for better readability and comfort.
-
-Technologies Used:
-
-Next.js 14:
-
-Next.js 14 is used for server-side rendering (SSR), static site generation (SSG), and routing, providing improved performance and SEO.
-
-It also helps in creating a seamless experience by handling both server-side and client-side rendering efficiently.
-
-TypeScript:
-
-TypeScript is used to ensure type safety, which reduces runtime errors and makes the codebase more maintainable.
-
-TypeScript also improves the developer experience by providing better tooling, such as auto-completion and type checking.
-
-Tailwind CSS:
-
-Tailwind CSS is utilized for styling, offering a utility-first framework to rapidly build responsive and customizable UIs.
-
-It ensures consistency across the design while making it easy to adjust the layout for various screen sizes.
-
-CodeMirror:
-
-CodeMirror is integrated as the text editor, offering features such as syntax highlighting, autocompletion, and code folding.
-
-It enhances the coding experience, making it more interactive and user-friendly for users.
-
-FastAPI:
-
-The backend uses FastAPI to execute Python code and send the output back to the frontend.
-
-FastAPI is known for its speed and ease of use in creating APIs, making it a good choice for a backend to handle code execution efficiently.
-
-Planned Future Features:
-
-Support for Additional Languages:
-
-Additional languages will be supported via the backend API, including JavaScript, Java, C++, etc.
-
-This will make the platform more versatile and cater to a wider audience.
-
-Leaderboard:
-
-A leaderboard feature will be added to track users' performance.
-
-Users will be ranked based on criteria such as completion time, number of challenges solved, or difficulty level of challenges.
-
-Enhanced UI & Animations:
-
-Future updates will focus on improving the platform's UI with smoother animations and more visually engaging elements.
-
-These changes will help create a more polished and professional user experience.
-
-Challenge Progress Tracker:
-
-A progress tracker will be added to keep track of which challenges have been solved and which are still pending.
-
-This feature will help users measure their progress and stay motivated.
-
-Customizable Challenge Settings:
-
-Users will be able to customize challenge settings, such as time limits, difficulty levels, and problem types.
-
-This will provide a more tailored and engaging experience for users.
-
-How to Run the Project Locally:
-
-The platform can be run locally by following simple steps:
-
-Clone the repository and install the frontend dependencies (yarn install or npm install).
-
-Set up the FastAPI backend by installing the required Python dependencies (pip install -r requirements.txt).
-
-Run the frontend and backend servers to start the application.
-
-After setting it up, you can access the platform locally to start coding and testing.
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
